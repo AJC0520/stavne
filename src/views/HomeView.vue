@@ -7,8 +7,8 @@ import StavneBlue from '../images/stavne_blue.png'
 <template>
   <main class="viewport">
     <BackgroundEffects />
-    <RouterLink to="/placeholder" class="house-link" aria-label="Go to placeholder page">
-      <img class="house" :src="StavneBlue" alt="Stavne house in blue">
+    <RouterLink to="/placeholder" class="house-link">
+      <img class="house" :src="StavneBlue" >
     </RouterLink>
   </main>
 </template>
