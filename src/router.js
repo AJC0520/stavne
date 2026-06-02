@@ -12,6 +12,7 @@ const routes = [
     path: '/placeholder',
     name: 'placeholder',
     component: Placeholder,
+    meta: {}
   },
 ]
 
