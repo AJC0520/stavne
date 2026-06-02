@@ -1,11 +1,16 @@
-<script setup></script>
+<script setup>
+import BackgroundEffects from './components/BackgroundEffects.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <BackgroundEffects />
 </template>
 
-<style scoped></style>
+<style>
+:root, html, body, #app {
+  min-height: 100%;
+  margin: 0;
+  background-color: #f1e8d2;
+}
+
+</style>
